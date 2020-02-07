@@ -1,4 +1,4 @@
-# Debugging
+7# Debugging
 
 If you clone down this lab and run the tests, you'll notice something:
 everything's broken. Like, broken bad. And guess what?  It's on you to fix it!
