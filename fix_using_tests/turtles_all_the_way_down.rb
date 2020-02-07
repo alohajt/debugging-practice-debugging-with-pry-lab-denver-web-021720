@@ -18,4 +18,4 @@ def turtle_traits(turtles)
 end
 
 
-turtle_traits(turtles)
+#turtle_traits(turtles)
