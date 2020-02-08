@@ -16,6 +16,7 @@ def turtle_traits(turtles)
     turtle[:traits] do |trait|
       arr.push(trait)
     end
+    
   end
   
 
