@@ -11,13 +11,16 @@ end
 def turtle_traits(turtles)
   
   arr = []
-  turtles.map do |turtle|
+  arr = turtles.map do |turtle|
     turtle[:traits] do |trait|
       trait
     end
   end
+  return arr
 end
 
+
+#
 # turtle,map = turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
 #       {name: "Michaelangelo", weapon: "nunchuks", traits: ["party dude"]},
 #       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
