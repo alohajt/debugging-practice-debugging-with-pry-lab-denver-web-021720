@@ -14,14 +14,9 @@ def turtle_traits(turtles)
   arr2 = []
   turtles.map do |turtle|
     turtle[:traits] do |trait|
-      arr.push(trait)
+      trait
     end
-    
   end
-  
-
-  binding.pry
-  return arr
 end
 
 # turtle,map = turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -31,4 +26,4 @@ end
 
 # turtle[:traits] =["serious", "leader"], ["party dude"],  ["cool", "rude"], ["loves being a turtle"]
 
-turtle_traits(turtles)
+#turtle_traits(turtles)
