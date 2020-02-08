@@ -16,8 +16,9 @@ def turtle_traits(turtles)
     turtle[:traits] do |trait|
       arr << trait
     end
-    # binding.pry
+    
   end
+  binding.pry
   return arr
 end
 
