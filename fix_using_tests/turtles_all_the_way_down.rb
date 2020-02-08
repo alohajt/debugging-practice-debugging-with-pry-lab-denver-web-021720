@@ -16,8 +16,9 @@ def turtle_traits(turtles)
       trait
     end
   end
-  return arr
   binding.pry
+  return arr
+  
 end
 
 
