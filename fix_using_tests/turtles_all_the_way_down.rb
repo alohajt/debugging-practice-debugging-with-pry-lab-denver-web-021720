@@ -14,18 +14,19 @@ def turtle_traits(turtles)
   arr2 = []
   turtles.map do |turtle|
     turtle[:traits] do |trait|
-      arr << trait
+      trait
     end
   end
+  
+  return trait
   binding.pry
-  return arr
 end
 
-# turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
+# turtle,map = turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
 #       {name: "Michaelangelo", weapon: "nunchuks", traits: ["party dude"]},
 #       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
 #       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}
 
-# turtle[:traits].each
+# turtle[:traits] =["serious", "leader"], ["party dude"],  ["cool", "rude"], ["loves being a turtle"]
 
 turtle_traits(turtles)
