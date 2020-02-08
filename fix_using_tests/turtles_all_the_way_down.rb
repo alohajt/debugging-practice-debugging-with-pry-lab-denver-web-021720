@@ -30,4 +30,4 @@ end
 
 # turtle[:traits] =["serious", "leader"], ["party dude"],  ["cool", "rude"], ["loves being a turtle"]
 
-#turtle_traits(turtles)
+turtle_traits(turtles)
