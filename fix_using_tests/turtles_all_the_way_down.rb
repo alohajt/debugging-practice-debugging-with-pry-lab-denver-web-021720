@@ -22,6 +22,8 @@ def turtle_traits(turtles)
 end
 
 
+great thanks, this is waht im looking options_from_collection_for_select for
+
 #
 # turtle,map = turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
 #       {name: "Michaelangelo", weapon: "nunchuks", traits: ["party dude"]},
