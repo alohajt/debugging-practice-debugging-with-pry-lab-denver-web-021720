@@ -16,10 +16,9 @@ def turtle_traits(turtles)
     turtle[:traits] do |trait|
       arr << trait
     end
-    arr2 << arr
     # binding.pry
   end
-
+  return arr
 end
 
 # turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
