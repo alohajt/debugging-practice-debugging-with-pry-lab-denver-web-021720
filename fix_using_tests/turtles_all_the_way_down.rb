@@ -14,12 +14,13 @@ def turtle_traits(turtles)
   arr2 = []
   turtles.map do |turtle|
     turtle[:traits] do |trait|
-      trait
+      arr.push(trait)
     end
   end
   
 
   binding.pry
+  return arr
 end
 
 # turtle,map = turtle =       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
